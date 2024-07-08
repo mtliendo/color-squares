@@ -55,4 +55,4 @@ async function seedDynamoDBTable(tableName, itemCount) {
 }
 
 // Usage example
-seedDynamoDBTable('Cell-fcvtjhylrjfzvasg7adk2i3hyq-NONE', 2000)
+seedDynamoDBTable('Cell-bxd3hps2bbcxhglc7rx2kuvnvy-NONE', 2000)

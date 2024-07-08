@@ -5,7 +5,39 @@ import { generateClient } from 'aws-amplify/api'
 import { Schema } from '../amplify/data/resource'
 Amplify.configure(awsconfig)
 
-const colors = ['red', 'green', 'blue', 'yellow', 'purple', 'white', 'black']
+const colors = [
+	// Red Variations
+	'#FF0000',
+	'#FF6666',
+	'#990000',
+
+	// Green Variations
+	'#00FF00',
+	'#66FF66',
+	'#009900',
+
+	// Blue Variations
+	'#0000FF',
+	'#6699FF',
+	'#000099',
+
+	// Yellow Variations
+	'#FFFF00',
+	'#FFFF66',
+	'#999900',
+
+	// Purple Variations
+	'#800080',
+	'#CC66CC',
+	'#660066',
+
+	// White and Black Variations
+	'#FFFFFF',
+	'#CCCCCC',
+	'#000000',
+	'#666666',
+]
+
 const client = generateClient<Schema>()
 
 const Cell = ({
